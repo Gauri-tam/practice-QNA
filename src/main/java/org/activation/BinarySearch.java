@@ -22,7 +22,7 @@ public class BinarySearch {
 
             if (middleNumber == numberToFind) {
                 return middleNumber;
-            } else if (numberToFind < numberToFind) {
+            } else if (numberToFind < middleNumber) {
                 high = middlePosition - 1;
             } else {
                 low = middlePosition + 1;
