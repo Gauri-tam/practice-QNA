@@ -13,9 +13,9 @@ public class RotateMatrix {
 
         rotate(matrix);
 
-        for(int i = 0; i < matrix.length; i++){
-            for (int j = 0; j < matrix[i].length; j++){
-                System.out.print(matrix[i][j] + " ");
+        for (int[] numbs : matrix) {
+            for (int numb : numbs) {
+                System.out.print(numb + " ");
             }
             System.out.println();
         }

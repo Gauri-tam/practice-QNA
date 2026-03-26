@@ -1,6 +1,4 @@
-package org.activation.stringDemo;
-
-import java.util.Arrays;
+package org.activation.string;
 
 public class Anagrams {
     // two string are Anagrams =  str1 = "listen" and str2 = "silent" contain same character

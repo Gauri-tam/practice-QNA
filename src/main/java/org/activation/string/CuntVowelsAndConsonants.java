@@ -1,6 +1,4 @@
-package org.activation.stringDemo;
-
-import java.util.Arrays;
+package org.activation.string;
 
 public class CuntVowelsAndConsonants {
 

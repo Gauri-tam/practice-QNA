@@ -1,4 +1,4 @@
-package org.activation.stringDemo;
+package org.activation.string;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.activation.stringDemo;
+package org.activation.string;
 
 import java.util.HashSet;
 import java.util.Set;
