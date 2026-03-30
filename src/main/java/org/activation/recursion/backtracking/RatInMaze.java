@@ -7,6 +7,9 @@ public class RatInMaze {
      Input: mat[][] = [[1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 0, 0], [0, 1, 1, 1]]
      Output: ["DDRDRR", "DRDDRR"]
      Explanation: The possible paths are: DDRDRR, DRDDRR // we have to replace down -> D and right -> R
+
+     Input: mat[][] = [[1, 1, 1], [1, 0, 1], [1, 1, 1]]
+     Output: [DDRR, RRDD]
      */
 
     public static void main(String[] args) {
@@ -17,6 +20,8 @@ public class RatInMaze {
                 {1, 1, 0, 0},
                 {0, 1, 1, 1}
         };
+
+//        int[][] mat = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
 
         ArrayList<String> findingPath = findingPath(mat);
 
@@ -33,19 +38,19 @@ public class RatInMaze {
         int index = 0;
         ArrayList<String> word = new ArrayList<>();
 
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-               if (dfs(mat, i, j, index, word)) {
-                    dfs(mat, i, j, index, word);
-               }
-            }
-        }
+//        for (int i = 0; i < row; i++) {
+//            for (int j = 0; j < col; j++) {
+//               if (dfs(mat, i, j, index, word)) {
+//                    dfs(mat, i, j, index, word);
+//               }
+//            }
+//        }
 
-//        if (mat[0][0] == 0) return word;
-//
-//        boolean[][] visited = new boolean[row][row];
-//
-//        dfs(mat, 0, 0, "", word, visited);
+        if (mat[0][0] == 0) return word;
+
+        boolean[][] visited = new boolean[row][row];
+
+        dfs(mat, 0, 0, "", word, visited);
         return word;
     }
 
