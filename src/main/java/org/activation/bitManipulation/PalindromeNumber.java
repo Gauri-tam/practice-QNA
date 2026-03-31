@@ -1,4 +1,4 @@
-package org.activation.array.numbers;
+package org.activation.bitManipulation;
 
 public class PalindromeNumber {
 
