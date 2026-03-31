@@ -1,7 +1,4 @@
-package org.activation.Array2D;
-
-import java.util.Arrays;
-import java.util.Objects;
+package org.activation.array2D;
 
 public class WordSearch {
 

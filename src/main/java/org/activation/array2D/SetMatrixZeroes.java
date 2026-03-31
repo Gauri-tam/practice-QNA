@@ -1,4 +1,4 @@
-package org.activation.Array2D;
+package org.activation.array2D;
 
 public class SetMatrixZeroes {
     public static void main(String[] arg) {

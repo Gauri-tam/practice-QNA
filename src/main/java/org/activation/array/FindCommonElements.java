@@ -1,4 +1,4 @@
-package org.activation;
+package org.activation.array;
 
 public class FindCommonElements {
 

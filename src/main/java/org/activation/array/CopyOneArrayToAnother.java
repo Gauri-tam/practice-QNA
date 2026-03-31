@@ -1,4 +1,4 @@
-package org.activation;
+package org.activation.array;
 
 public class CopyOneArrayToAnother {
     public static void main(String[] args){

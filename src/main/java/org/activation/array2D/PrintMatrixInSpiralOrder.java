@@ -1,4 +1,4 @@
-package org.activation.Array2D;
+package org.activation.array2D;
 
 import java.util.ArrayList;
 import java.util.List;
