@@ -13,7 +13,15 @@ public class MergeIntervals {
                 {15, 18}, {17, 20}
         }; // output of the [[1,6],[8,10],[15,18]]
       int[][] merged = merge(intervals);
-        System.out.println(Arrays.deepToString(merged));
+//        System.out.println(Arrays.deepToString(merged));
+
+        for (int[] interval : merged) {
+            for ( int i : interval) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
+//            System.out.println(Arrays.toString(interval));
+        }
     }
 
     public static int[][] merge(int[][] intervalse) {

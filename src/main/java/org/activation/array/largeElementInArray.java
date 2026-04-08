@@ -1,6 +1,6 @@
-package org.activation;
+package org.activation.array;
 
-public class Main {
+public class largeElementInArray {
     public static void main(String[] args) {
         int[] array = {3, 5, 7, 9, 3, 6};
 
