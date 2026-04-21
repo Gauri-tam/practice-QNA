@@ -20,12 +20,4 @@ public class ReverseString {
 
         return  reverseString(str.substring(1)) + str.charAt(0);  // Recursive case
     }
-
-    private static String reverseHelper(String str, int i) {
-        if (i < 0) {
-            return ""; // Base case: if index is less than 0, return empty string
-        }
-        // Recursive case: get the character at index i and append it to the reversed substring
-        return str.charAt(i) + reverseHelper(str, i - 1);
-    }
 }
